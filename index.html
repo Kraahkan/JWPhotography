@@ -19,7 +19,7 @@
 
 <body>
   <div class="nav-container">
-    <nav>
+    <nav class="navbar-fixed-top">
       <div class="nav-bar">
         <div class="module left">
           <a href="index.html">
@@ -34,13 +34,13 @@
           <div class="module left">
             <ul class="menu">
               <li>
-                <a href="#">GALLERY</a>
+                <a href="#scrollable-gallery">GALLERY</a>
               </li>
               <li>
-                <a href="#">ABOUT</a>
+                <a href="#scrollable-about">ABOUT</a>
               </li>
               <li>
-                <a href="#">DOWNLOAD</a>
+                <a href="#scrollable-download">DOWNLOAD</a>
               </li>
             </ul>
           </div>
@@ -61,14 +61,15 @@
                   <h1 class="mb40 mb-xs-16 large"><b>Beautiful prints made to order</b><br></h1>
                   <h6 class="uppercase mb16">JOEL WIEST PHOTOGRAPHY</h6>
                   <p class="lead mb40">Each photo tells a story. The sites and scenery of Kamloops, made to order, built to fit your living space.</p>
-                  <a class="btn btn-lg btn-filled" href="#">BROWSE THE GALLERY</a><a class="btn btn-lg" href="#">ABOUT</a>
+                  <a class="btn btn-lg btn-filled" href="#scrollable-gallery">BROWSE THE GALLERY</a>
+                  <a class="btn btn-lg" href="#scrollable-about">ABOUT</a>
                 </div>
               </div>
             </div>
           </li>
         </ul>
 
-      </section><section class="page-title page-title-3 bg-secondary">
+      </section><section class="page-title page-title-3 bg-secondary" id='scrollable-gallery'>
         <div class="container">
           <div class="row">
             <div class="col-sm-12 text-center">
@@ -87,7 +88,7 @@
             </div>
           </div>
           <div class="row masonry masonryFlyIn">
-            <div class="col-sm-6 masonry-item project" data-filter="People">
+            <div class="col-sm-6 masonry-item project">
               <div class="image-tile hover-tile text-center">
                 <img alt="image" class="background-image" src="1.jpeg">
                 <div class="hover-state">
@@ -99,7 +100,7 @@
               </div>
             </div>
 
-            <div class="col-sm-6 masonry-item project" data-filter="People">
+            <div class="col-sm-6 masonry-item project">
               <div class="image-tile hover-tile text-center">
                 <img alt="image" class="background-image" src="2.jpeg">
                 <div class="hover-state">
@@ -111,7 +112,7 @@
               </div>
             </div>
 
-            <div class="col-sm-6 masonry-item project" data-filter="People">
+            <div class="col-sm-6 masonry-item project">
               <div class="image-tile hover-tile text-center">
                 <img alt="image" class="background-image" src="3.jpeg">
                 <div class="hover-state">
@@ -123,7 +124,7 @@
               </div>
             </div>
 
-            <div class="col-sm-6 masonry-item project" data-filter="People">
+            <div class="col-sm-6 masonry-item project">
               <div class="image-tile hover-tile text-center">
                 <img alt="image" class="background-image" src="4.jpeg">
                 <div class="hover-state">
@@ -135,7 +136,7 @@
               </div>
             </div>
 
-            <div class="col-sm-6 masonry-item project" data-filter="People">
+            <div class="col-sm-6 masonry-item project">
               <div class="image-tile hover-tile text-center">
                 <img alt="image" class="background-image" src="5.jpeg">
                 <div class="hover-state">
@@ -147,7 +148,7 @@
               </div>
             </div>
 
-            <div class="col-sm-6 masonry-item project" data-filter="People">
+            <div class="col-sm-6 masonry-item project">
               <div class="image-tile hover-tile text-center">
                 <img alt="image" class="background-image" src="6.jpeg">
                 <div class="hover-state">
@@ -158,11 +159,11 @@
                 <!--<p>FOR LATER</p>-->
               </div>
             </div>
-
           </div>
+          <div id='scrollable-about'></div>
         </div>
 
-      </section><section class="page-title page-title-3 bg-secondary">
+      </section><section class="page-title page-title-3 bg-secondary" id='scrollable-about'>
         <div class="container">
           <div class="row">
             <div class="col-sm-12 text-center">
@@ -213,7 +214,7 @@
 
             </div>
 
-          </section><section class="bg-dark pb0">
+          </section><section class="bg-dark pb0" id='scrollable-download'>
             <div class="container">
               <div class="row mb64 mb-xs-32">
                 <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 text-center">
