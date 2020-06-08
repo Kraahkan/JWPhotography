@@ -1642,6 +1642,11 @@ nav.nav-centered.outOfSight .logo {
   display: inline-block;
   color: #292929;
 }
+.icon-camera {
+  font-size: 64px;
+  display: inline-block;
+  color: #ffffff;
+}
 .image-bg.bg-light .icon {
   color: #292929;
 }
